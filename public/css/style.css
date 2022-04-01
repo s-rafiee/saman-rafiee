@@ -22,9 +22,11 @@ body {
     padding-bottom: 50px;
     margin-bottom: 80px;
 }
-.navbar{
+
+.navbar {
     padding: 10px;
 }
+
 a {
     color: #000;
 }
@@ -64,7 +66,7 @@ a {
 }
 
 .about {
-    padding: 20px 80px;
+    padding: 20px 20px;
 }
 
 .about h3 {
@@ -149,10 +151,12 @@ footer {
     left: 0;
     background: #fff;
 }
-.skill-progress{
+
+.skill-progress {
     margin-top: 20px;
 }
-.skill-progress .skill-logo{
+
+.skill-progress .skill-logo {
     border: 2px solid #ededed;
     width: 84px;
     height: 84px;
@@ -160,29 +164,34 @@ footer {
     border-radius: 50%;
     overflow: hidden;
 }
-.skill-progress .skill-logo img{
+
+.skill-progress .skill-logo img {
     width: 60px;
     height: 60px;
     margin: 10px;
     padding: 5px;
 }
-.skill-progress .skill-title{
+
+.skill-progress .skill-title {
     font-size: 22px;
     margin-top: 5px;
     text-align: center;
 }
-.skill-progress .skill-about{
+
+.skill-progress .skill-about {
     text-align: center;
     font-size: 18px;
     color: #666;
 
 }
-table a{
+
+table a {
     color: #007ced;
     text-decoration: none;
     position: relative;
 }
-.liner-box{
+
+.liner-box {
     margin: 0px;
     border-left: 1px solid #007ced;
     position: relative;
@@ -190,44 +199,61 @@ table a{
     padding: 30px;
     padding-top: 10px;
 }
-#education .card-body{
+
+#education .card-body {
     padding: 20px 30px;
 }
-.liner-box .icon{
+
+.liner-box .icon {
     position: absolute;
     left: -18px;
-    top:0;
+    top: 0;
     background: #fff;
     font-size: 36px;
     color: #007ced;
 }
-.liner-box h2{
+
+.liner-box h2 {
     font-size: 22px;
 }
-.liner-box >span{
+
+.liner-box > span {
     font-size: 14px;
     color: #666;
 }
-.liner-box p{
+
+.liner-box p {
     font-size: 18px;
     color: #333;
 }
-.connect-box{
-    font-size: 12px;
+
+.connect-box {
+    font-size: 14px;
     margin-bottom: 20px;
-    color: #666;
+    color: #333;
 }
-.connect-box img{
-    width: 20px;
-    height: 20px;
+
+.connect-box img {
+    width: 15px;
+    height: 15px;
 }
-.connect-box a{
+
+.connect-box a {
     text-decoration: none;
+    color: #333;
 }
-.nav-item  a.active{
+
+.nav-item a.active {
     color: #007ced;
     border-bottom: 1px solid #007ced;
 }
+
+@media (min-width: 470px) and (max-width: 991px) {
+    .about {
+        padding: 20px 80px;
+    }
+}
+
 @media (max-width: 470px) {
     #app {
         border-radius: 0px;

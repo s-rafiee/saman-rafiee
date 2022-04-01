@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Saman Rafiee Sardo</title>
+    <meta name="description" content="saman rafiee sardo website - وب سایت سامان رفیعی ساردو">
     <link rel="stylesheet" href="{{ asset('fonts/line-awesome/css/line-awesome.min.css') }}">
     <link rel="stylesheet" id="leven-google-fonts-css"
           href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
@@ -54,16 +55,14 @@
     <div class="row header">
         <div class="col-md-12 col-lg-6 mt-5">
             <div class="profile">
-                <img src="{{ asset('images/profile.jpeg') }}" alt="saman rafiee">
+                <img src="{{ asset('images/profile.jpeg') }}" alt="saman rafiee sardo - سامان رفیعی ساردو">
             </div>
         </div>
         <div class="col-md-12 col-lg-6 mt-5">
             <div class="about col-sm-12 col-lg-8">
                 <h3>Web Developer and AI</h3>
                 <h1>Saman Rafiee Sardo</h1>
-                <p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum
-                    gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna,
-                    a placerat sapien pretium eu.</p>
+                <p>I am Saman Rafiee Sardo, from Iran. I am a web developer and artificial intelligence specialist. Coding is very enjoyable for me and I am always specific about it during the day. This is my personal website and you will find out more about me.</p>
                 <a href="/" class="btn btn-link">Download CV</a>
             </div>
         </div>
